@@ -1,0 +1,57 @@
+body, html {
+font-family: sans-serif;
+height: 100%;
+margin: 0;
+}
+
+
+.menu_lateral {
+height: 100%;
+width: 20%;
+background-color: rgb(36, 155, 155);
+float: left;
+position: fixed;
+top: 0;
+bottom: 0;
+}
+
+.menu_lateral li a {
+    text-decoration: nome !important;
+    color: white;
+    font-family: sans-serif;
+}
+
+.menu_lateral li a:hover {
+    text-decoration: nome !important;
+    color: rgb(158, 209, 17);
+    text-shadow: 1px 2px 2px chartreuse;
+}
+
+
+.menu_lateral li {
+    text-decoration: nome !important;
+    color: white;
+    font-weight: 400;
+}
+
+.bem_vindo {
+    width: 79%;
+    height: 100%;
+    background-color: #e6d4d4d7;
+    position: relative;
+    display: flex;
+    /* flex-grow: 1; */
+    float: right;
+    top: 0;
+    bottom: 0;
+    padding-left: 15px;
+    /* margin-left: 5px; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bem_vindo h1
+.bem_vindo p {
+    text-align: center;
+}
